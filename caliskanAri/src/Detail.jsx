@@ -61,7 +61,7 @@ const Detail = () => {
                         <div className="flex justify-start" key={index}>
                             <div className="p-2" style={{ width: '100%' }} >
                                 <button
-                                    className={`w-full py-2 px-4 text-left ${secilenDers && secilenDers.ders[0].ders_adı === ders.ders[0].ders_adı ? 'bg-yellow-500' : 'bg-gray-100 text-gray-800'}`}
+                                    className={`w-full py-2 px-4 text-left rounded-xl ${secilenDers && secilenDers.ders[0].ders_adı === ders.ders[0].ders_adı ? 'bg-yellow-500' : 'bg-gray-100 text-gray-800'}`}
                                     onClick={() => handleDersSecimi(ders)}
                                 >
                                     {ders.ders[0].ders_adı}
