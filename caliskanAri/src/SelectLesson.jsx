@@ -10,7 +10,7 @@ const SelectLesson = () => {
 
   const handleClick = (lesson) => {
     localStorage.setItem('lesson', lesson )
-   }
+  }
 
   useEffect(() => {
     setSınıf(localStorage.getItem("sınıf"))
@@ -33,14 +33,14 @@ const SelectLesson = () => {
   return (
     <div>
       <div className='p-4'>
-       <h1 className='font-bold'>{sınıf}</h1>
+        <h1 className='font-bold'>{sınıf}</h1>
       </div>
       <hr />
 
       <div className='mt-24'>
-        <ul className='flex justify-center mt-4 gap-4'>
+        <ul className='flex flex-wrap justify-center mt-4 gap-4'>
           {dersler.map((ders, index) => (
-            <li key={index}>
+            <li key={index} className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/6">
               <Link to={`/detail/${id}/${ders?.ders_adı}`}>
                 <img onClick={()=>handleClick(ders?.ders_adı)} src={ders?.dersImgUrl} alt={ders?.dersImgUrl} />
               </Link>
