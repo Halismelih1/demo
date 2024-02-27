@@ -5,7 +5,6 @@ import mockData from './data/mock';
 const SelectLesson = () => {
   const { id } = useParams();
   const [dersler, setDersler] = useState([]);
-  const [img, setImg] = useState([]);
   const [sınıf, setSınıf] = useState();
 
   const handleClick = (lesson) => {
@@ -18,15 +17,11 @@ const SelectLesson = () => {
       return mockData.find(item => item.id === id);
     };
 
-    const getResimler = (dersler) => {
-      return dersler.map(ders => ders.ders[0].dersImgUrl);
-    };
 
     const data = getVeriById(id);
     if (data) {
       setDersler(data.dersler.map(ders => ders.ders[0]));
-      const ımgData = getResimler(data.dersler);
-      setImg(ımgData);
+      
     }
   }, [id]);
 
