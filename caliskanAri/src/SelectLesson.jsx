@@ -28,7 +28,9 @@ const SelectLesson = () => {
   return (
     <div>
       <div className='p-4'>
+        <Link to={"/"}>
         <h1 className='font-bold'>{sınıf}</h1>
+        </Link>
       </div>
       <hr />
 

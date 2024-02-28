@@ -1,15 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useParams } from 'react-router-dom';
 import mockData from './data/mock';
 
 const Detail = () => {
-    const location = useLocation();
-    const pathnameParts = location.pathname.split('/');
-    const id = pathnameParts[2];
-    const dersAdiEncoded = pathnameParts[3];
-
-    const dersAdi = decodeURIComponent(dersAdiEncoded);
-
+    
+    const { id, dersAdi } = useParams();
     const [sınıf, setSınıf] = useState(null);
     const [dersler, setDersler] = useState([]);
     const [secilenDers, setSecilenDers] = useState(null);
@@ -82,7 +77,8 @@ const Detail = () => {
     return (
         <>
             <div className='p-4'>
-                <h1 className='font-bold'>{stepperSınıf} | {stepperDers}</h1>
+                <h1 className='font-bold'><Link to={"/"}>{stepperSınıf}</Link>
+                | <Link to={`/lessons/${id}`}>{stepperDers}</Link></h1>
             </div>
             <hr />
             <div style={{ display: 'flex', flexDirection: isSmallScreen ? 'column' : 'row', marginTop: "24px" }}>
