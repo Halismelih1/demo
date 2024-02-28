@@ -7,6 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import SelectLesson from './SelectLesson';
+import Soon from './Soon';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   <>
   <Routes>
   <Route path='/' element={<Home/>}/>
+  <Route path='/soon' element={<Soon/>}/>
   <Route path='/lessons/:id' element={<SelectLesson/>}/>
   <Route path='/detail/:id/:dersAdi' element={<Detail/>}/>
   </Routes>

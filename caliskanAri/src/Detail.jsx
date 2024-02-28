@@ -115,7 +115,9 @@ const Detail = () => {
                                     {unit.konu_ögeleri.map((konu, konuIndex) => (
                                         <li key={konuIndex} className="mb-2">
                                             <div className="flex justify-between items-center bg-customGray-light rounded-lg p-1 mt-2">
+                                                <Link to={"/Soon"}>
                                                 <span>{konu}</span>
+                                                </Link>
                                             </div>
                                         </li>
                                     ))}
