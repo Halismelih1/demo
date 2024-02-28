@@ -94,7 +94,7 @@ const Detail = () => {
                             <div className="flex justify-start" key={index}>
                                 <div className="p-2" style={{ width: '100%' }} >
                                     <button
-                                        className={`w-full py-2 px-4 text-left rounded-xl ${secilenDers && secilenDers.ders[0].ders_adı === ders.ders[0].ders_adı ? 'bg-yellow-500' : 'bg-gray-100 text-gray-800'}`}
+                                        className={`w-full py-2 px-4 text-left rounded-xl ${secilenDers && secilenDers.ders[0].ders_adı === ders.ders[0].ders_adı ? 'bg-customYellow' : 'bg-customGray-light'}`}
                                         onClick={() => handleDersSecimi(ders)}
                                     >
                                         {ders.ders[0].ders_adı}
@@ -110,15 +110,15 @@ const Detail = () => {
                         <hr />
                         {uniteler.map((unit, index) => (
                             <div key={index}>
-                                <div className="flex justify-between items-center bg-gray-300 rounded-lg p-2 mt-2">
+                                <div className="flex justify-between items-center bg-customGray-dark rounded-lg p-2 mt-2">
                                     <span>{unit.ünite_adı}</span>
-                                    <button className="ml-4 px-2 py-1 bg-blue-500 text-white rounded" onClick={() => toggleDropdown(index)}>Konular</button>
+                                    <button className="ml-4 px-2 py-1 bg-customYellow text-black rounded" onClick={() => toggleDropdown(index)}>Konular</button>
                                 </div>
                                 {/* Dropdown */}
                                 <ul className="list-inside text-gray-800 mt-2" style={{ display: showDropdowns[index] ? 'block' : 'none' }}>
                                     {unit.konu_ögeleri.map((konu, konuIndex) => (
                                         <li key={konuIndex} className="mb-2">
-                                            <div className="flex justify-between items-center bg-gray-200 rounded-lg p-1 mt-2">
+                                            <div className="flex justify-between items-center bg-customGray-light rounded-lg p-1 mt-2">
                                                 <span>{konu}</span>
                                             </div>
                                         </li>
