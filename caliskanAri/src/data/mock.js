@@ -8,79 +8,83 @@ const mockData = [
         ders: [
           {
             ders_adı: "Turkce", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/turkce.PNG"
-          }
+            dersImgUrl: "../assets/turkce.PNG",
+            üniteler: [
+              {
+                ünite_adı: "1.Ünite",
+                konu_ögeleri: ["Test", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              }
+            ]
+          },
+          
         ],
-        üniteler: [
-          {
-            ünite_adı: "1.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          }
-        ]
+        
       },
       {
         ders: [
           {
             ders_adı: "matematık", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/matematık.PNG"
+            dersImgUrl: "../assets/matematık.PNG",
+            üniteler: [
+              {
+                ünite_adı: "1.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              }
+            ]
           }
         ],
-        üniteler: [
-          {
-            ünite_adı: "1.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          }
-        ]
+        
       },
       {
         ders: [
           {
             ders_adı: "Sosyal Bılgıler", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/sosyalBılgıler.PNG"
+            dersImgUrl: "../assets/sosyalBılgıler.PNG",
+            üniteler: [
+              {
+                ünite_adı: "test",
+                konu_ögeleri: ["deneme", "deneme", "deneme"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "4.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "5.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "6.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+             
+            ]
           }
-        ], üniteler: [
-          {
-            ünite_adı: "test",
-            konu_ögeleri: ["deneme", "deneme", "deneme"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "4.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "5.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "6.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-         
-        ]
+        ], 
       },
     ]
   },
@@ -93,112 +97,116 @@ const mockData = [
         ders: [
           {
             ders_adı: "Turkce", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/turkce.PNG"
+            dersImgUrl: "../assets/turkce.PNG",
+            üniteler: [
+              {
+                ünite_adı: "deneme",
+                konu_ögeleri: ["deneme", "deneme", "deneme"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "4.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "5.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "6.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "7.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "8.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              }
+            ]
+
           }
         ],
-        üniteler: [
-          {
-            ünite_adı: "deneme",
-            konu_ögeleri: ["deneme", "deneme", "deneme"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "4.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "5.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "6.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "7.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "8.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          }
-        ]
+       
       },
       {
         ders: [
           {
             ders_adı: "matematık", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/matematık.PNG"
+            dersImgUrl: "../assets/matematık.PNG",
+            üniteler: [
+              {
+                ünite_adı: "1.Ünite",
+                konu_ögeleri: ["deneme", "deneme", "deneme"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "4.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "5.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "6.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "7.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "8.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              }
+            ]
           }
         ],
-        üniteler: [
-          {
-            ünite_adı: "1.Ünite",
-            konu_ögeleri: ["deneme", "deneme", "deneme"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "4.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "5.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "6.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "7.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "8.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          }
-        ]
+        
       },
       {
         ders: [
           {
             ders_adı: "Sosyal Bılgıler", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/sosyalBılgıler.PNG"
+            dersImgUrl: "../assets/sosyalBılgıler.PNG",
+            üniteler: [
+              {
+                ünite_adı: "deneme",
+                konu_ögeleri: ["deneme", "deneme", "deneme"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "4.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+             
+            ]
           }
         ],
-        üniteler: [
-          {
-            ünite_adı: "deneme",
-            konu_ögeleri: ["deneme", "deneme", "deneme"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "4.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-         
-        ]
+       
       },
 
     ]
@@ -212,45 +220,47 @@ const mockData = [
         ders: [
           {
             ders_adı: "Turkce", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/turkce.PNG"
+            dersImgUrl: "../assets/turkce.PNG",
+            üniteler: [
+              {
+                ünite_adı: "1.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              }
+            ]
           }
         ],
-        üniteler: [
-          {
-            ünite_adı: "1.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          }
-        ]
+        
       },
       {
         ders: [
           {
             ders_adı: "matematık", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/matematık.PNG"
+            dersImgUrl: "../assets/matematık.PNG",
+            üniteler: [
+              {
+                ünite_adı: "1.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              }
+            ]
           }
         ],
-        üniteler: [
-          {
-            ünite_adı: "1.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          }
-        ]
+        
       },
       {
         ders: [
@@ -258,37 +268,7 @@ const mockData = [
             ders_adı: "Sosyal Bılgıler", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
             dersImgUrl: "../assets/sosyalBılgıler.PNG"
           }
-        ], üniteler: [
-          {
-            ünite_adı: "deneme",
-            konu_ögeleri: ["deneme", "deneme", "deneme"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "4.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "5.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "6.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "7.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          
-        ]
+        ], 
       },
 
     ]
@@ -302,126 +282,127 @@ const mockData = [
         ders: [
           {
             ders_adı: "Turkce", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/turkce.PNG"
+            dersImgUrl: "../assets/turkce.PNG",
+            üniteler: [
+              {
+                ünite_adı: "deneme",
+                konu_ögeleri: ["deneme", "deneme", "deneme"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "4.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "5.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "6.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "7.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              
+            ]
           }
-        ], üniteler: [
-          {
-            ünite_adı: "1.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          }
-        ]
+        ],
       },
       {
         ders: [
           {
             ders_adı: "matematık", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/matematık.PNG"
+            dersImgUrl: "../assets/matematık.PNG",
+            üniteler: [
+              {
+                ünite_adı: "1.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              }
+            ]
           }
-        ], üniteler: [
-          {
-            ünite_adı: "deneme",
-            konu_ögeleri: ["deneme", "deneme", "deneme"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "4.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "5.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "6.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "7.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "8.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          }
-        ]
+        ], 
       },
       
       {
         ders: [
           {
             ders_adı: "Fen Bılgısı", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/fenBılgısı.PNG"
+            dersImgUrl: "../assets/fenBılgısı.PNG",
+            üniteler: [
+              {
+                ünite_adı: "deneme",
+                konu_ögeleri: ["deneme", "deneme", "deneme"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "4.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "5.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "6.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "7.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "8.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              }
+            ]
           }
-        ], üniteler: [
-          {
-            ünite_adı: "1.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          }
-        ]
+        ], 
       },
       {
         ders: [
           {
             ders_adı: "Sosyal Bılgıler", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/sosyalBılgıler.PNG"
+            dersImgUrl: "../assets/sosyalBılgıler.PNG",
+            üniteler: [
+              {
+                ünite_adı: "1.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              }
+            ]
           }
-        ], üniteler: [
-          {
-            ünite_adı: "deneme",
-            konu_ögeleri: ["deneme", "deneme", "deneme"]
-          },
-          {
-            ünite_adı: "2.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "3.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "4.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "5.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "6.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "7.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          },
-          {
-            ünite_adı: "8.Ünite",
-            konu_ögeleri: ["Konu", "Konu", "Konu"]
-          }
-        ]
+        ], 
       }
 
     ]
