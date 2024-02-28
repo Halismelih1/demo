@@ -266,7 +266,21 @@ const mockData = [
         ders: [
           {
             ders_adı: "Sosyal Bılgıler", //useLocationdan dolayı ders isimlendirmelerinde türkçe karakter kullanamadım
-            dersImgUrl: "../assets/sosyalBılgıler.PNG"
+            dersImgUrl: "../assets/sosyalBılgıler.PNG",
+            üniteler: [
+              {
+                ünite_adı: "1.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "2.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              },
+              {
+                ünite_adı: "3.Ünite",
+                konu_ögeleri: ["Konu", "Konu", "Konu"]
+              }
+            ]
           }
         ], 
       },
