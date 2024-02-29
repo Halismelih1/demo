@@ -38,7 +38,7 @@ const SelectLesson = () => {
         <ul className='flex flex-wrap justify-center mt-4 gap-4'>
           {dersler.map((ders, index) => (
             <li key={index} className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/6">
-              <Link to={`/detail/${id}/${ders?.ders_adı}`}>
+              <Link to={`/${sınıf}/${id}/${ders?.ders_adı}`}>
                 <img onClick={()=>handleClick(ders?.ders_adı)} src={ders?.dersImgUrl} alt={ders?.dersImgUrl} />
               </Link>
             </li>
