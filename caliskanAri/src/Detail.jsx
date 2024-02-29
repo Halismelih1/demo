@@ -77,8 +77,8 @@ const Detail = () => {
     return (
         <>
             <div className='p-4'>
-                <h1 className='font-bold'><Link to={"/"}>{stepperSınıf}</Link>
-                | <Link to={`/lessons/${id}`}>{stepperDers}</Link></h1>
+                <h1 className='font-bold'><Link to={"/"}>{stepperSınıf} &#8250; </Link>
+                 <Link to={`/lessons/${id}`}>{stepperDers}</Link></h1>
             </div>
             <hr />
             <div style={{ display: 'flex', flexDirection: isSmallScreen ? 'column' : 'row', marginTop: "24px" }}>
@@ -108,7 +108,7 @@ const Detail = () => {
                             <div key={index}>
                                 <div className="flex justify-between items-center bg-customGray-dark rounded-lg p-2 mt-2">
                                     <span>{unit.ünite_adı}</span>
-                                    <button className="ml-4 px-2 py-1 bg-customYellow text-black rounded" onClick={() => toggleDropdown(index)}>Konular</button>
+                                    <button className="ml-4 px-2 py-1 bg-customYellow text-black rounded" onClick={() => toggleDropdown(index)}>&#x1F86A;</button>
                                 </div>
                                 {/* Dropdown */}
                                 <ul className="list-inside text-gray-800 mt-2" style={{ display: showDropdowns[index] ? 'block' : 'none' }}>
