@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import mockData from './data/mock';
 
 const Detail = () => {
-    
+
     const { id, dersAdi } = useParams();
     const [sınıf, setSınıf] = useState(null);
     const [dersler, setDersler] = useState([]);
@@ -50,7 +50,7 @@ const Detail = () => {
         window.addEventListener('resize', checkScreenSize); // Ekran değişimi kontrrol
 
         return () => {
-            window.removeEventListener('resize', checkScreenSize); 
+            window.removeEventListener('resize', checkScreenSize);
         };
     }, [id, dersAdi]);
 
@@ -78,7 +78,7 @@ const Detail = () => {
         <>
             <div className='p-4'>
                 <h1 className='font-bold'><Link to={"/"}>{stepperSınıf} &#8250; </Link>
-                 <Link to={`/lessons/${id}`}>{stepperDers}</Link></h1>
+                    <Link to={`/lessons/${id}`}>{stepperDers}</Link></h1>
             </div>
             <hr />
             <div style={{ display: 'flex', flexDirection: isSmallScreen ? 'column' : 'row', marginTop: "24px" }}>
@@ -115,8 +115,8 @@ const Detail = () => {
                                     {unit.konu_ögeleri.map((konu, konuIndex) => (
                                         <li key={konuIndex} className="mb-2">
                                             <div className="flex justify-between items-center bg-customGray-light rounded-lg p-1 mt-2">
-                                                <Link to={"/soon"}>
-                                                <span>{konu}</span>
+                                                <Link to={konu.link}>
+                                                    <span>{konu.konu}</span>
                                                 </Link>
                                             </div>
                                         </li>

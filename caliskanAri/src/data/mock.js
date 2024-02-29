@@ -12,21 +12,33 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "1.Ünite",
-                konu_ögeleri: ["Test", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               }
             ]
           },
-          
+
         ],
-        
+
       },
       {
         ders: [
@@ -36,20 +48,32 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "1.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               }
             ]
           }
         ],
-        
+
       },
       {
         ders: [
@@ -59,32 +83,56 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "test",
-                konu_ögeleri: ["deneme", "deneme", "deneme"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "4.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "5.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "6.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
-             
+
             ]
           }
-        ], 
+        ],
       },
     ]
   },
@@ -101,41 +149,73 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "deneme",
-                konu_ögeleri: ["deneme", "deneme", "deneme"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "4.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "5.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "6.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "7.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "8.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               }
             ]
 
           }
         ],
-       
+
       },
       {
         ders: [
@@ -145,40 +225,72 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "1.Ünite",
-                konu_ögeleri: ["deneme", "deneme", "deneme"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "4.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "5.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "6.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "7.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "8.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               }
             ]
           }
         ],
-        
+
       },
       {
         ders: [
@@ -188,25 +300,41 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "deneme",
-                konu_ögeleri: ["deneme", "deneme", "deneme"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "4.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
-             
+
             ]
           }
         ],
-       
+
       },
 
     ]
@@ -224,20 +352,32 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "1.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               }
             ]
           }
         ],
-        
+
       },
       {
         ders: [
@@ -247,20 +387,35 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "1.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
+
               },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
+
               },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              }
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
+
+              },
             ]
           }
         ],
-        
+
       },
       {
         ders: [
@@ -270,19 +425,31 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "1.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               }
             ]
           }
-        ], 
+        ],
       },
 
     ]
@@ -300,33 +467,38 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "deneme",
-                konu_ögeleri: ["deneme", "deneme", "deneme"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
               {
                 ünite_adı: "4.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]
               },
-              {
-                ünite_adı: "5.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
-              {
-                ünite_adı: "6.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
-              {
-                ünite_adı: "7.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
-              
+
+
             ]
           }
         ],
@@ -339,21 +511,30 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "1.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]              },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]              },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              }
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]              }
             ]
           }
-        ], 
+        ],
       },
-      
+
       {
         ders: [
           {
@@ -362,39 +543,36 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "deneme",
-                konu_ögeleri: ["deneme", "deneme", "deneme"]
-              },
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]              },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]              },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]              },
               {
                 ünite_adı: "4.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
-              {
-                ünite_adı: "5.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
-              {
-                ünite_adı: "6.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
-              {
-                ünite_adı: "7.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
-              {
-                ünite_adı: "8.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              }
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]              },
+              
             ]
           }
-        ], 
+        ],
       },
       {
         ders: [
@@ -404,19 +582,28 @@ const mockData = [
             üniteler: [
               {
                 ünite_adı: "1.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]              },
               {
                 ünite_adı: "2.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              },
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]              },
               {
                 ünite_adı: "3.Ünite",
-                konu_ögeleri: ["Konu", "Konu", "Konu"]
-              }
+                konu_ögeleri: [
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" },
+                  { konu: "Konu", link: "/soon" }
+                ]              }
             ]
           }
-        ], 
+        ],
       }
 
     ]
