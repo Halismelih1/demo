@@ -4,7 +4,6 @@ import Home from './Home'
 import {
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 import SelectLesson from './SelectLesson';
 import Soon from './Soon';

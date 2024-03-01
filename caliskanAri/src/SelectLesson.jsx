@@ -8,7 +8,7 @@ const SelectLesson = () => {
   const [sınıf, setSınıf] = useState();
 
   const handleClick = (lesson) => {
-    localStorage.setItem('lesson', lesson )
+    localStorage.setItem('lesson', lesson)
   }
 
   useEffect(() => {
@@ -21,16 +21,19 @@ const SelectLesson = () => {
     const data = getVeriById(id);
     if (data) {
       setDersler(data.dersler.map(ders => ders.ders[0]));
-      
+
     }
   }, [id]);
 
   return (
     <div>
-      <div className='p-4'>
+      <div className='p-4 flex justify-between'>
         <Link to={"/"}>
-        <h1 className='font-bold'>{sınıf}</h1>
+          <h1 className='font-bold'>{sınıf}</h1>
         </Link>
+        <div className=''>
+          <img className='w-[50px]' src="./assets/logo.png" />
+        </div>
       </div>
       <hr />
 
@@ -39,7 +42,7 @@ const SelectLesson = () => {
           {dersler.map((ders, index) => (
             <li key={index} className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/6">
               <Link to={`/${sınıf}/${id}/${ders?.ders_adı}`}>
-                <img onClick={()=>handleClick(ders?.ders_adı)} src={ders?.dersImgUrl} alt={ders?.dersImgUrl} />
+                <img onClick={() => handleClick(ders?.ders_adı)} src={ders?.dersImgUrl} alt={ders?.dersImgUrl} />
               </Link>
             </li>
           ))}

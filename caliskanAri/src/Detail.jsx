@@ -16,7 +16,7 @@ const Detail = () => {
     const [stepperSınıf, setStepperSınıf] = useState([]);
     const [showDropdowns, setShowDropdowns] = useState({});
     const [isSmallScreen, setIsSmallScreen] = useState(false);
-    const [isMenuOpen, setIsMenuOpen] = useState(false); 
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [timer, setTimer] = useState(0);
     const [isTimerRunning, setIsTimerRunning] = useState(false);
 
@@ -109,7 +109,7 @@ const Detail = () => {
         setShowDropdowns(initialDropdownState);
     };
 
-    
+
 
     const toggleDropdown = (index) => {
         setShowDropdowns(prevState => ({
@@ -122,6 +122,7 @@ const Detail = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    // Menü İçeriği(Dersler)
 
     const getMenuContent = () => {
         return (
@@ -145,19 +146,20 @@ const Detail = () => {
         );
     };
 
+    // Modal
     const Modal = ({ children, onClose }) => {
         const handleClose = (e) => {
             if (e.target === e.currentTarget) {
                 onClose();
             }
         };
-    
+
         return (
             <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-customGray bg-opacity-80" onClick={handleClose}>
                 <div className="bg-white p-12 rounded-md relative">
                     <button className="absolute cursor-pointer top-2 text-red-500 font-bold right-2 bg-transparent border-none text-black" onClick={onClose}>&#10007;</button>
                     <div >{children}</div>
-                    
+
                 </div>
             </div>
         );
@@ -165,30 +167,35 @@ const Detail = () => {
 
     return (
         <>
-              <div className='p-4 flex justify-between'>
+            <div className='p-4 flex justify-between'>
+                {/* Stepper */}
                 <h1 className='font-bold'>
                     <Link to={"/"}>{stepperSınıf} &#8250; </Link>
                     <Link to={`/lessons/${id}`}>{stepperDers}</Link>
                 </h1>
-                
-                <div className=" border p-2">
+                <div className=''>
+                    <img className='w-[50px]' src="./assets/logo.png" />
+                </div>
 
+                <div className=" border p-2">
+                    {/* Sayaç */}
                     <button className="mr-4" onClick={toggleTimer}>
                         {isTimerRunning ? <FaPause /> : <FaPlay />}
                     </button>
                     <button className="mr-4" onClick={resetTimer}>
                         <FaRedo />
                     </button>
-                    
+
                     <span className="text-xl font-bold ml-4">{formatTime(timer)}</span>
                 </div>
             </div>
             <hr />
             <div className='flex flex-col'>
+                {/* Küçük ekranlar */}
                 {isSmallScreen ? (
                     <div className='w-full p-4'>
                         <button className="bg-customYellow  font-bold py-2 px-4 rounded ml-4" onClick={toggleMenu}>
-                             Dersler 
+                            Dersler
                         </button>
                         {isMenuOpen && <Modal onClose={toggleMenu}>{getMenuContent()}</Modal>}
                         <div className="p-4">
@@ -217,9 +224,11 @@ const Detail = () => {
                             ))}
                         </div>
                     </div>
+
                 ) : (
                     <>
                         <div className='flex w-full'>
+                            {/* Büyük ekranlar */}
                             <div className='w-1/2 p-4 border-r '>
                                 {getMenuContent()}
                             </div>
@@ -256,7 +265,7 @@ const Detail = () => {
             </div>
         </>
     );
-    
+
 };
 
 export default Detail;
